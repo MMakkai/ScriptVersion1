@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DatabaseSchema"
+    targetNamespace="http://tempuri.org/DatabaseSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/DatabaseSchema.xsd"
+    xmlns:mstns="http://tempuri.org/DatabaseSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="Korhaz">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Orvos" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nev" type="xs:string"></xs:element>
+							<xs:element name="demail" type="xs:string"></xs:element>
+							<xs:element name="beosztas" type="xs:string"></xs:element>
+							<xs:element name="minugyelet" type="xs:string"></xs:element>
+							<xs:element name="maxugyelet" type="xs:int"></xs:element>
+							<xs:element name="ugyelet" type="xs:string"></xs:element>
+							<xs:element name="szabadsag" type="xs:string"></xs:element>
+							<xs:element name="tiltott" type="xs:string"></xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:string" use="required"></xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

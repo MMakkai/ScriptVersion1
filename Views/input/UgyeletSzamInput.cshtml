@@ -1,0 +1,15 @@
+﻿@model ScriptVersion1.Models.Orvos
+@{
+    ViewBag.Title = "Input";
+}
+@using (Html.BeginForm("UgyeletInput", "input", FormMethod.Post))
+{
+    <div>Adja meg az orvos email-jét akinek az adatait módosítani szeretné</div>
+    @Html.TextBoxFor(m => m.demail, null, new { @class = "form-control" })
+    <div>Adja meg a kívánt minimum ügyeletszámot</div>
+    @Html.TextBoxFor(m => m.minugyelet, null, new { @class = "form-control" })
+    <div>Adja meg a kívánt maximum ügyeletszámot</div>
+    @Html.TextBoxFor(m => m.maxugyelet, null, new { @class = "form-control" })
+
+    <input type="submit" value="submit" />
+}

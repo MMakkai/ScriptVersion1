@@ -1,0 +1,15 @@
+﻿@model ScriptVersion1.Models.Login
+@{
+    ViewBag.Title = "Regisztráció";
+}
+@using (Html.BeginForm("Register", "login", FormMethod.Post))
+{
+    <div>Név</div>
+    @Html.TextBoxFor(m => m.fnev, null, new { @class = "form-control" })
+    <div>Email</div>
+    @Html.TextBoxFor(m => m.email, null, new { @class = "form-control" })
+    <div>Jelszó</div>
+    @Html.PasswordFor(m => m.jelszo, new { @class = "form-control" })
+
+    <input type="submit" value="submit" />
+}

@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "View";
+}
+
+@model ScriptVersion1.Models.Workday
+
+<table id="001">
+    <tr>
+        <th>
+            Szobaszám
+        </th>
+        <th>
+            Név
+        </th>
+    </tr>
+    @foreach (var orvos in Model.workorvos)
+    {
+        <tr>
+            <td>
+                @Model.workorvos.IndexOf(orvos)+1;
+            </td>
+            <td>
+                @orvos.nev
+            </td>
+        </tr>
+    }
+</table>

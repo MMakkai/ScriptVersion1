@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<felhasznalok>
+	<felhasznalo accid="000" authlevel="1">
+		<fnev>admin</fnev>
+		<email>korhazadmin997@gmail.com</email>
+		<jelszo>admin</jelszo>
+	</felhasznalo>
+	<felhasznalo accid="001" authlevel="0">
+		<fnev>Fekete Albert</fnev>
+		<email>user1@gmail.com</email>
+		<jelszo>asdasd1</jelszo>
+	</felhasznalo>
+	<felhasznalo accid="002" authlevel="0">
+		<fnev>Márton Alexander</fnev>
+		<email>user2@gmail.com</email>
+		<jelszo>asdasd2</jelszo>
+	</felhasznalo>
+	<felhasznalo accid="003" authlevel="0">
+		<fnev>Szücs Márk</fnev>
+		<email>user3@gmail.com</email>
+		<jelszo>asdasd3</jelszo>
+	</felhasznalo>
+	<felhasznalo accid="004" authlevel="0">
+		<fnev>Rácz Dániel</fnev>
+		<email>user4@gmail.com</email>
+		<jelszo>asdasd4</jelszo>
+	</felhasznalo>
+	<felhasznalo accid="005" authlevel="0">
+		<fnev>Hajdú Edina</fnev>
+		<email>user5@gmail.com</email>
+		<jelszo>asdasd5</jelszo>
+	</felhasznalo>
+	<felhasznalo accid="006" authlevel="0">
+		<fnev>Pataki Botond</fnev>
+		<email>user6@gmail.com</email>
+		<jelszo>asdasd6</jelszo>
+	</felhasznalo>
+	<felhasznalo accid="007" authlevel="0">
+		<fnev>Csonka Krisztina</fnev>
+		<email>user7@gmail.com</email>
+		<jelszo>asdasd7</jelszo>
+	</felhasznalo>
+	<felhasznalo accid="008" authlevel="0">
+		<fnev>Fodor Géza</fnev>
+		<email>user8@gmail.com</email>
+		<jelszo>asdasd8</jelszo>
+	</felhasznalo>
+</felhasznalok>

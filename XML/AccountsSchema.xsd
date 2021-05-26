@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DatabaseSchema"
+    targetNamespace="http://tempuri.org/DatabaseSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/DatabaseSchema.xsd"
+    xmlns:mstns="http://tempuri.org/DatabaseSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="felhasznalok">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="felhasznalo" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="fnev" type="xs:string"></xs:element>
+							<xs:element name="email" type="xs:string"></xs:element>
+							<xs:element name="jelszo" type="xs:string"></xs:element>
+						</xs:sequence>
+						<xs:attribute name="accid" type="xs:string" use="required"></xs:attribute>
+						<xs:attribute name="authlevel" type="xs:string" use="required"></xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

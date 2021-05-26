@@ -1,0 +1,16 @@
+﻿@model ScriptVersion1.Models.Orvos
+@{
+    ViewBag.Title = "Input";
+}
+@using (Html.BeginForm("Input", "input", FormMethod.Post))
+{
+    <div></div>
+    <div>Név</div>
+    @Html.TextBoxFor(m => m.nev, null, new { @class = "form-control" })
+    <div>Email</div>
+    @Html.TextBoxFor(m => m.demail, null, new { @class = "form-control" })
+    <div>Beosztás</div>
+    @Html.TextBoxFor(m => m.beosztas, null, new { @class = "form-control" })
+
+    <input type="submit" value="Bevitel" />
+}

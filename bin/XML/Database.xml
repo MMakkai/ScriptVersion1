@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+
+<Korhaz>
+	<orvos id="001">
+		<nev>Fekete Albert</nev>
+		<demail>user1@gmail.com</demail>
+		<beosztas>rezidens</beosztas>
+		<minugyelet>4</minugyelet>
+		<maxugyelet>8</maxugyelet>
+		<ugyelet>2021-05-01, 2021-05-03, 2021-05-05, 2021-05-15, 2021-05-25, 2021-05-26, 2021-05-27, 2021-05-28</ugyelet>
+		<szabadsag>2021-05-02</szabadsag>
+		<tiltott>2021-05-04,2021-05-06</tiltott>
+	</orvos>
+	<orvos id="002">
+		<nev>Márton Alexander</nev>
+		<demail>user2@gmail.com</demail>
+		<beosztas>szakorvosjelölt</beosztas>
+		<minugyelet>4</minugyelet>
+		<maxugyelet>8</maxugyelet>
+		<ugyelet>2021-05-02,2021-05-06,2021-05-08</ugyelet>
+		<szabadsag>2021-05-01, 2021-05-03</szabadsag>
+		<tiltott>2021-05-15,2021-05-25</tiltott>
+	</orvos>
+	<orvos id="003">
+		<nev>Szücs Márk</nev>
+		<demail>user3@gmail.com</demail>
+		<beosztas>adjunktus</beosztas>
+		<minugyelet>4</minugyelet>
+		<maxugyelet>8</maxugyelet>
+		<ugyelet>2021-05-01,2021-05-25</ugyelet>
+		<szabadsag>2021-05-02,2021-05-03</szabadsag>
+		<tiltott>2021-05-03,2021-05-05</tiltott>
+	</orvos>
+	<orvos id="004">
+		<nev>Rácz Dániel</nev>
+		<demail>user4@gmail.com</demail>
+		<beosztas>szakorvos</beosztas>
+		<minugyelet>4</minugyelet>
+		<maxugyelet>8</maxugyelet>
+		<ugyelet></ugyelet>
+		<szabadsag></szabadsag>
+	</orvos>
+	<orvos id="005">
+		<nev>Hajdú Edina</nev>
+		<demail>user5@gmail.com</demail>
+		<beosztas>rezidens</beosztas>
+		<minugyelet>4</minugyelet>
+		<maxugyelet>8</maxugyelet>
+		<ugyelet></ugyelet>
+		<szabadsag></szabadsag>
+		<tiltott></tiltott>
+	</orvos>
+	<orvos id="006">
+		<nev>Pataki Botond</nev>
+		<demail>user6@gmail.com</demail>
+		<beosztas>adjunktus</beosztas>
+		<minugyelet>4</minugyelet>
+		<maxugyelet>8</maxugyelet>
+		<ugyelet></ugyelet>
+		<szabadsag></szabadsag>
+		<tiltott></tiltott>
+	</orvos>
+	<orvos id="007">
+		<nev>Csonka Krisztina</nev>
+		<demail>user7@gmail.com</demail>
+		<beosztas>adjunktus</beosztas>
+		<minugyelet>4</minugyelet>
+		<maxugyelet>8</maxugyelet>
+		<ugyelet></ugyelet>
+		<szabadsag></szabadsag>
+		<tiltott></tiltott>
+	</orvos>
+	<orvos id="008">
+		<nev>Fodor Géza</nev>
+		<demail>user8@gmail.com</demail>
+		<beosztas>osztályvezető főorvos</beosztas>
+		<minugyelet>4</minugyelet>
+		<maxugyelet>8</maxugyelet>
+		<ugyelet></ugyelet>
+		<szabadsag></szabadsag>
+		<tiltott></tiltott>
+	</orvos>
+		
+</Korhaz>

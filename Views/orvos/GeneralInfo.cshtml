@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "GeneralInfo";
+}
+@model ScriptVersion1.ViewModels.KorhazViewModel
+
+<table id="001">
+    <tr>
+        <th>
+            Név
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Beosztás
+        </th>
+        <th>
+            Minimum Ügyelet
+        </th>
+        <th>
+            Maximum Ügyelet
+        </th>
+        <th>
+            Ügyelet
+        </th>
+        <th>
+            Szabadság
+        </th>
+        <th>
+            Tiltott
+        </th>
+    </tr>
+    @foreach (var orvos in Model.orvoslist)
+    {
+        <tr>
+            <td>
+                @orvos.nev
+            </td>
+            <td>
+                @orvos.demail
+            </td>
+            <td>
+                @orvos.beosztas
+            </td>
+            <td>
+                @orvos.minugyelet
+            </td>
+            <td>
+                @orvos.maxugyelet
+            </td>
+            <td>
+                @orvos.ugyelet
+            </td>
+            <td>
+                @orvos.szabadsag
+            </td>
+            <td>
+                @orvos.tiltott
+            </td>
+        </tr>
+    }
+</table>
